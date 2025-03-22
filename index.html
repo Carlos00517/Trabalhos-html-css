@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indecor - Seu evento de decoração!</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header id="cabecalho">
+        <div id="fundo-escurecido">
+            <!-- Lado esquerdo -->
+            <section id="titulo">
+                <h1>InDecor</h1>
+                <p id="slogan">
+                    Um evento para revolucionar sua criatividade.
+                </p>
+                <h3 id="titulo-data">Data do evento</h3>
+                <p id="data">
+                    Domingo, 28 de maio, a partir das 14H
+                </p>
+            </section>
+            <!-- Lado direito -->
+            <section id="formulario">
+                <form action="enviar" id="form">
+                    <h3>Preencha o formulário abaixo para receber mais informações e detalhes do evento!</h3>
+                    <fieldset id="campos">
+                        <label for="name"> Nome:
+                            <input type="text" id="name" placeholder="Seu nome">
+                        </label>
+                        <label for="email"> E-mail:
+                            <input type="email" id="email" placeholder="Seu e-mail">
+                        </label>
+                        <label for="numero"> Número:
+                            <input type="text" id="numero" placeholder="Seu número">
+                        </label>
+                        <label for="option-value"> Como soube do evento?:
+                            <select name="Opção" id="opcoes">
+                                <option value="" disabled selected>Selecione</option>
+                                <option value="Instagram">Instagram</option>
+                                <option value="Facebook">Facebook</option>
+                                <option value="Propaganda">Propaganda</option>
+                                <option value="Indicação">Indicação</option>
+                            </select>
+                        </label>
+                        <input type="submit" id="botao" value="Quero me inscrever">
+                    </fieldset>
+                </form>
+            </section>
+        </div>
+    </header>
+    <main>
+        <div id="banner-imagens">
+            <div id="bn" class="banner ativo">
+                <i class="bi bi-arrow-bar-left"></i>
+                <img src="images/img1.jpg" alt="decoracao">
+                <h2>Decorações</h2>
+                <p>As decorações do momento você ira encontrar aqui.</p>
+                <i class="bi bi-arrow-bar-right"></i>
+            </div>
+            <div id="bn" class="banner">
+                <i class="bi bi-arrow-bar-left"></i>
+                <img src="images/img2.jpg" alt="decoracao">
+                <h2>Quadros</h2>
+                <p>Incriveis quadros .</p>
+                <i class="bi bi-arrow-bar-right"></i>
+            </div>
+            <div id="bn" class="banner">
+                <i class="bi bi-arrow-bar-left"></i>
+                <img src="images/img3.jpg" alt="decoracao">
+                <h2>Decorações</h2>
+                <p>As decorações do momento você ira encontrar aqui.</p>
+                <i class="bi bi-arrow-bar-right"></i>
+            </div>
+        </div>
+        <div id="subslogan">
+            <h3> O que você vai aprender?</h3>
+        </div>
+
+        <div id="img_circulo">
+            <div class="img_circulo_conteudo">
+                <img src="images/img6.jpg" alt="Decoração incrivel">
+                <p>Transforme seus espaços com criatividade: aprenda a decorar com estilo!</p>
+            </div>
+            <div class="img_circulo_conteudo">
+                <img src="images/img8.jpg" alt="Decoração incrivel">
+                <p>Dicas práticas e inovadoras para criar ambientes que inspiram.</p>
+            </div>
+            <div class="img_circulo_conteudo">
+                <img src="images/img9.jpg" alt="Decoração incrivel">
+                <p>Descubra o poder da decoração: técnicas simples para renovar seu lar.</p>
+            </div>
+        </div>
+
+        <div id="localizacao_img">
+            <div id="localizacao_img_escurecido">
+                <div id="esquerda_localizacao">
+                    <i class="bi bi-geo-alt"></i>
+                    <p>Avenida campos salles - Nº151
+                        <br>
+                        Centro - Campinas
+                        <br>
+                        Inicio - 14h
+                    </p>
+                </div>
+                <div id="direita_localizacao">
+                    <h2>Local de destaque</h2>
+                    <p>
+                        O evento acontecerá em um local de fácil acesso e altamente reconhecido, perfeito para receber todos os participantes com conforto e praticidade. Situado em uma área central e estratégica, o espaço oferece infraestrutura moderna, ambientes amplos e aconchegantes, além de uma excelente conexão com meios de transporte e serviços ao redor. Seja para quem chega de carro ou transporte público, o local é ideal para um evento inesquecível.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="subslogan">
+            <h3> Veja abaixo mais sobre o nosso evento</h3>
+        </div>
+        <div class="direita">
+            <img src="images/img4.jpg" alt="Decoração exemplo">
+            <h2>Conheça os ambientes que você vai aprender a decorar!</h2>
+        </div>
+        <div class="esquerda">
+            <div class="lista_aprendizado">
+                <h3>Detalhes</h3>
+                <ul>
+                    <li>Posicionamento</li>
+                    <li>Aproveitamento de espaço</li>
+                    <li>Combinação de cores</li>
+                    <li>Organização</li>
+                </ul>
+                <p>E muito mais...</p>
+            </div>
+            <img src="images/img1.jpg" alt="Decoração relacionada com detalhes">
+        </div>
+        <div class="direita">
+            <img src="images/img3.jpg" alt="Decoração exemplo">
+            <div class="lista_aprendizado">
+                <h3>Objetos</h3>
+                <ul>
+                    <li>Cadeiras</li>
+                    <li>Mesas</li>
+                    <li>Espelhos</li>
+                    <li>Plantas</li>
+                    <li>Cortinas</li>
+                </ul>
+                <p>E muito mais...</p>
+            </div>
+        </div>
+
+        <div id="inscreverse_img">
+            <div id="inscreverse_escuro">
+                <h3>Gostou? Então venha fazer parte desse evento
+                    <br>
+                    seja um InDecor!</h3>
+                <a href="inscricao.html"><input type="submit" value="QUERO ME INSCREVER"></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="rodape">
+            <h2>InDecor</h2>
+            <h3>A evolução na decoração de interiores</h3>
+            <p><strong>E-mail: </strong>contato@indecor.com.br</p>
+            <p><strong>Telefone: </strong>(19) 3213-9090</p>
+        </div>
+    </footer>
+</body>
+</html>

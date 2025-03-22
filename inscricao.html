@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indecor - Seu evento de decoração!</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header id="cabecalho">
+        <div id="fundo-escurecido">
+            <!-- Lado esquerdo -->
+            <section id="titulo">
+                <h1>InDecor</h1>
+                <p id="slogan">
+                    Um evento para revolucionar sua criatividade.
+                </p>
+                <h3 id="titulo-data">Data do evento</h3>
+                <p id="data">
+                    Domingo, 28 de maio, a partir das 14H
+                </p>
+            </section>
+            <!-- Lado direito -->
+            <section id="formulario">
+                <form action="enviar" id="form">
+                    <h3>Preencha o formulário abaixo para receber mais informações e detalhes do evento!</h3>
+                    <fieldset id="campos">
+                        <label for="name"> Nome:
+                            <input type="text" id="name" placeholder="Seu nome">
+                        </label>
+                        <label for="email"> E-mail:
+                            <input type="email" id="email" placeholder="Seu e-mail">
+                        </label>
+                        <label for="numero"> Número:
+                            <input type="text" id="numero" placeholder="Seu número">
+                        </label>
+                        <label for="option-value"> Como soube do evento?:
+                            <select name="Opção" id="opcoes">
+                                <option value="" disabled selected>Selecione</option>
+                                <option value="Instagram">Instagram</option>
+                                <option value="Facebook">Facebook</option>
+                                <option value="Propaganda">Propaganda</option>
+                                <option value="Indicação">Indicação</option>
+                            </select>
+                        </label>
+                        <input type="submit" id="botao" value="Quero me inscrever">
+                    </fieldset>
+                </form>
+            </section>
+        </div>
+    </header>
+    <footer>
+        <div id="rodape">
+            <h2>InDecor</h2>
+            <h3>A evolução na decoração de interiores</h3>
+            <p><strong>E-mail: </strong>contato@indecor.com.br</p>
+            <p><strong>Telefone: </strong>(19) 3213-9090</p>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,429 @@
+:root {
+    --primary: #00baf2;
+    --secondary: #95989a;
+    --text-color: #fff;
+    --text-secondary: #000;
+    --text-tertiary: #5d5d5d;
+    }
+    
+    * {
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    }
+
+/*Cabeçalho*/
+#cabecalho {
+    background: url('images/img3.jpg');
+    height: 1000px;     
+}
+
+#fundo-escurecido {
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+/* Banner Imagens */
+#banner-imagens {
+    display: flex;
+    position: relative;
+}
+
+#bn {
+    
+}
+
+#bn img {
+    width: 1000px;
+}
+
+#banner {
+    
+}
+
+/*Lado esquerdo*/
+
+#fundo-escurecido #titulo {
+    width: 35%;
+    margin-left: 10%;
+}
+
+#fundo-escurecido #titulo h1{
+    font-size: 5rem;
+    color: var(--primary);
+}
+
+#fundo-escurecido #titulo #slogan {
+    color: var(--text-color);
+    margin-top: 3rem;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+#fundo-escurecido #titulo #titulo-data {
+    color: var(--text-color);
+    font-weight: 300;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
+
+#fundo-escurecido #titulo #data {
+    color: var(--primary);
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+
+/* Lado direito */
+
+#formulario {
+    width: 35%;
+    margin-left: 10%;
+}
+
+#formulario #form {
+    background-color: var(--secondary);
+    padding: 2rem;
+    
+}
+
+#formulario #form h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+#formulario #form #campos {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    margin-top: 2rem;
+}
+
+#formulario #form #campos label {
+    display: flex;
+    flex-direction: column;
+    color: var(--text-tertiary);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#formulario #form #campos label input {
+    padding: 0.6rem;
+    border-radius: 5px;
+    border: 1px solid var(--secondary);
+    transition: 0.3s;
+    color: var(--primary);
+}
+
+#formulario #form #campos label select {
+    padding: 0.6rem;
+    border-radius: 5px;
+    border: 1px solid var(--secondary);
+    transition: 0.3s;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+
+#formulario #form #campos label select option {
+    text-transform: uppercase;
+    color: var(--secondary);
+}
+
+#formulario #form #campos label  ::placeholder {
+    text-transform: uppercase;
+    opacity: 80%;
+    color: var(--secondary);
+}
+
+#formulario #form #campos #botao {
+    padding: 1rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 5px;
+    color: var(--secondary);
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+
+
+/* Main - Conteudo principal */
+
+
+/* Conteudos imagens circulares */
+#subslogan {
+    text-align: center;
+    padding: 3rem;
+    background-color: var(--secondary);
+
+}
+
+#img_circulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding: 3rem;
+    margin-top: 3rem;
+}
+
+#img_circulo .img_circulo_conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+    padding: 1rem;
+    transition: 0.5s;
+}
+
+#img_circulo .img_circulo_conteudo img {
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+
+#img_circulo .img_circulo_conteudo p {
+    color: var(--secondary);
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+/* Localização */
+
+#localizacao_img {
+    background-image: url('images/img4.jpg');
+    height: 600px;
+}
+
+#localizacao_img_escurecido {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
+#localizacao_img_escurecido #esquerda_localizacao {
+    display: flex;
+    width: 30%;
+    align-items: center;
+    transition: 0.3s;
+}
+
+#localizacao_img_escurecido #esquerda_localizacao i {
+    padding: 2rem;
+    color: var(--primary);
+    font-size: 3rem;
+}
+
+#localizacao_img_escurecido #esquerda_localizacao p {
+    text-align: center;
+    color: var(--text-color);
+    font-size: 1.5rem;
+    font-weight: 200;
+}
+
+#localizacao_img_escurecido #direita_localizacao {
+    width: 30%;
+    margin-left: 15%;
+    transition: 0.3s;
+}
+
+#localizacao_img_escurecido #direita_localizacao H2 {
+    font-size: 2rem;
+    color: var(--primary);
+    text-transform: uppercase;
+}
+
+#localizacao_img_escurecido #direita_localizacao p {
+    color: var(--text-color);
+    margin-top: 3rem;
+    font-weight: 300;
+}
+
+/* Conteudos com imagem a esquerda e palavra a direita */
+
+.direita {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.direita img {
+    width: 1000px;
+}
+
+.direita h2 {
+    padding: 2rem;
+    text-transform: uppercase;
+}
+
+.direita .lista_aprendizado {
+    margin-left: 20rem;
+}
+
+.direita .lista_aprendizado h3 {
+    font-size: 2rem;
+}
+
+.direita .lista_aprendizado ul {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.direita .lista_aprendizado p {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+
+/* Conteudos com imagem a direita e palavra a esquerda */
+
+.esquerda {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    margin-top: 3rem;
+}
+
+.esquerda img {
+    width: 1000px;
+
+}
+
+.esquerda .lista_aprendizado {
+    margin-right: 20rem;
+}
+
+.esquerda .lista_aprendizado h3 {
+    font-size: 2rem;
+}
+
+.esquerda .lista_aprendizado ul {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin-top: 1rem;
+}
+
+.esquerda .lista_aprendizado p {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+/* Parte gostou */
+
+#inscreverse_img {
+    background-image: url('images/img3.jpg');
+    height: 600px;
+    margin-top: 3rem;
+
+}
+
+#inscreverse_escuro {
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#inscreverse_escuro h3 {
+    font-size: 2rem;
+    text-align: center;
+    width: 800px;
+    text-transform: uppercase;
+    color: var(--primary);
+}
+
+#inscreverse_escuro input {
+    padding: 1rem;
+    margin-top: 2rem;
+    width: 800px;
+    color: var(--secondary);
+    border-radius: 5px;
+    border: none;
+    transition: 0.3s;
+}
+
+#rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem;
+}
+
+#rodape h2 {
+    color: var(--secondary);
+    font-weight: 900;
+}
+
+#rodape h3 {
+    margin-top: 1rem;
+    font-weight: 300;
+    color: var(--secondary);
+}
+
+#rodape p {
+    margin-top: 1rem;
+    color: var(--secondary);
+}
+
+/* Animações */
+
+#img_circulo .img_circulo_conteudo:hover {
+    transform: scale(1.2,1.2);
+    transition: 0.5s;
+}
+
+#formulario #form #campos label input:hover{
+    border: 2px solid var(--primary);
+    transition: 0.3s;
+}
+
+#formulario #form #campos label select:hover{
+    border: 2px solid var(--primary);
+    transition: 0.3s;
+}
+
+#formulario #form #campos #botao:hover{
+    background-color: var(--primary);
+    color: var(--text-color);
+    transition: 0.3s;
+}
+
+#inscreverse_escuro input:hover {
+    transform: scale(1.2,1.2);
+    color: var(--text-color);
+    background-color: var(--primary);
+    transition: 0.3s;
+}
+
+#esquerda_localizacao:hover {
+    transform: scale(1.2,1.2);
+    transition: 0.5s;
+}
+
+#direita_localizacao:hover {
+    transform: scale(1.2,1.2);
+    transition: 0.5s;
+}
