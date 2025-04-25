@@ -12,6 +12,10 @@
     padding: 0;
     }
 
+img{
+    width: 100%;
+}
+
 /*Cabeçalho*/
 #cabecalho {
     background: url('images/img3.jpg');
@@ -127,7 +131,7 @@
     border: 1px solid var(--secondary);
     transition: 0.3s;
     text-transform: uppercase;
-    color: var(--primary);
+   
 }
 
 #formulario #form #campos label select option {
@@ -199,7 +203,9 @@
 /* Localização */
 
 #localizacao_img {
-    background-image: url('images/img4.jpg');
+    background-image: url('images/img2.jpg');
+    background-size: cover;
+    background-position: center;
     height: 600px;
 }
 
@@ -255,9 +261,8 @@
 
 .direita {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    margin-top: 3rem;
+    gap: 2rem;
+    margin: 6rem 5rem;
 }
 
 .direita img {
@@ -266,7 +271,7 @@
 
 .direita h2 {
     padding: 2rem;
-    text-transform: uppercase;
+    font-size: 3rem;
 }
 
 .direita .lista_aprendizado {
@@ -331,7 +336,9 @@
 /* Parte gostou */
 
 #inscreverse_img {
-    background-image: url('images/img3.jpg');
+    background-image: url('images/img7.jpg');
+    background-size: cover;
+    background-position: center;
     height: 600px;
     margin-top: 3rem;
 
